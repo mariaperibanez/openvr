@@ -241,11 +241,16 @@ endif()
 # -----------------------------------------------------------------------------
 ## SUBDIRECTORIES ##
 
+
+#add_subdirectory(driver_sample)
 add_subdirectory(hellovr_opengl)
-if(NOT (${CMAKE_SYSTEM_NAME} MATCHES "Darwin"))
-  add_subdirectory(hellovr_vulkan)
-endif()
-add_subdirectory(helloworldoverlay)
-add_subdirectory(tracked_camera_openvr_sample)
+#if(NOT (${CMAKE_SYSTEM_NAME} MATCHES "Darwin"))
+#  add_subdirectory(hellovr_vulkan)
+#endif()
+#add_subdirectory(helloworldoverlay)
+#add_subdirectory(tracked_camera_openvr_sample)
+#add_subdirectory(phosphenes)
+#add_subdirectory(ImageToPhosphenes)
+add_subdirectory(ProthesisSimulator)
 
 # -----------------------------------------------------------------------------
